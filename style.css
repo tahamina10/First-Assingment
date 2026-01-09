@@ -91,7 +91,7 @@
     color: #30B868;
 }
 
-.banner_containerr p{
+.banner_container p{
     color: #FFFFFF;
     text-align: center;
     font-size: 18px;
@@ -129,6 +129,7 @@
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 500;
+    border: 1px solid #FFFFFF;  
 }
 
 
