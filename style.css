@@ -1,3 +1,7 @@
+.inter-sans {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
 * {
   margin: 0;
   padding: 0;
@@ -93,6 +97,7 @@
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 32px;
+
 }
 
 .hero_button{
@@ -100,6 +105,7 @@
     justify-content: center;
     align-items: center;
     gap: 16px;
+    margin-top: 32px;
 }
 
 .button{
@@ -125,7 +131,7 @@
     font-weight: 500;
 }
 
-/* Hero Section One Style */
+
 .section_card{
     max-width: 1600px;
     width: 100%;
@@ -146,8 +152,6 @@
     line-height: 20px;
     margin-bottom: 40px;
 }
-
-/* This is container design */
 .section_container{
     display: flex;
     justify-content: center;
@@ -155,14 +159,10 @@
     gap: 24px;
 }
 
-/* This is define define height & widht and background */
 .section_container .card{
     width: 300px;
     height: 300px;
     text-align: center;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     box-shadow:1px 0px 12px 0 rgba(0, 0, 0, 0.08);
     
@@ -171,27 +171,149 @@
     justify-content: center;
     align-items: center;
 }
-
-
-/* This is card image design */
 .card img{
     background-color: #F95555;
     border-radius: 50%;
     padding: 12px;
     margin-bottom:16px ;
 }
-
-/* This is Card h3 design */
 .card h3{
     color: #001931;
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 16px;
 }
-
-/* This is card Paragraph design */
 .card p{
     color: #627382;
     font-size: 16px;
     line-height: 20px;
 }
+.section_info{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 100px 20px;
+
+  display: flex;              
+  align-items: center;
+  gap: 80px;
+}
+.section_text h6{
+  display: inline;
+  color: #30B868;
+}
+.section_image,
+.section_text{
+  flex: 1;
+}
+
+.section_image img{
+  width: 100%;
+  display: block;
+}
+.section_text h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.25;     
+  margin-bottom: 20px;  
+    color: #001931;
+}
+  
+.section_text p{
+  font-size: 16px;
+  line-height: 1.7;    
+  color: #627382;
+  margin-bottom: 28px;
+}
+.section_text li{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+   line-height: 1.6 
+}
+.section_skil{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding: 70px 20px;
+}
+
+.skil_container{
+    background-color: #F7F6F2;
+    max-width: 1272px;
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.skil_container h2{
+    color: #001931;
+    font-size: 43px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.skil_container p{
+    color: #627382;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.skil_container .batn{
+    display: inline-flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    background: #30B868;
+    color: #FFFFFF;
+}
+footer{
+    max-width: 2200px;
+    width: 100%;
+    background-color: #001931;
+    padding-top: 120px;
+    padding-bottom:20px;
+    text-align: center;
+}
+
+.footer_container{
+    max-width: 1272px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_info h5{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.footer_info a{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 16px;
+    padding: 3px;
+}
+
+.foter_info i{
+    color: #000000;
+}
+
+footer .copy{
+    max-width: 1250px;
+    width: 100%;
+    margin: 80px auto 0px;
+}
+
+.copy p{
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight:400;
+} 
